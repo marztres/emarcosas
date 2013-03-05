@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{background: transparent;border: 0;margin: 0;padding: 0;vertical-align: baseline}
+a{text-decoration:none}
+.oc{display:none}
+
+.derecha{float:right}
+.izquierda{float:left}
+
+
+body{margin:0 20px; padding:0;font-family:Helvetica;font-size:12px;background:url(../img/Fondo.jpg)}
+
+#total{width:962px;padding:0;margin:auto}
+#espacio { background:   no-repeat; width:962px; padding-bottom:0px } 
+
+#cuerpo{background:url(/emarcosas/templates/img/cabecera-sombra.png) no-repeat;float:left; width:1024px;  } 
+#contenido{background:url(/emarcosas/templates/img/cuerpo%202.png) repeat-y ;position:relative;left:-11px;  padding:10px; margin-top:41px; width:962px; height:auto; float:left;}
+#cabecera {
+			padding-bottom:20px;
+	 		}
+
+
+
+#logo {background:url(/emarcosas/templates/img/logoemarco2.png) no-repeat; width:221px; height:118px; position:relative; left:50px; top:-10px; }
+
+
+.enlacesoporte        { text-decoration:none;      color:#06F;font-family:helvetica;  font-size:14px;  }
+.enlacesoporte:hover  { text-decoration:underline; color:#F00; font-family:helvetica; font-size:14px;  }
+
+.barradebotones {
+	 			position:relative;
+				top:60px;
+				left:38px;	
+				}
+.contenedorbotones {
+					position:relative;
+					left:93px;
+					top:-6px;
+				 
+					} 
+
+.inicio {background:url(/emarcosas/templates/img/botoninicio.png) no-repeat; width:67px; height:30px; margin-right:1px;}
+.inicio:hover {background:url(/emarcosas/templates/img/botoninicio-hover.png) no-repeat; width:67px; height:30px; }
+
+				
+					
+.maquinas {background:url(/emarcosas/templates/img/botonmaquinas.png) no-repeat; width:94px; height:30px; margin-right:1px;}
+.maquinas:hover {background:url(/emarcosas/templates/img/botonmaquinas-hover.png) no-repeat; width:94px; height:30px;}
+
+.mantenimiento {background:url(/emarcosas/templates/img/botonmantenimiento.png) no-repeat; width:134px; height:30px; margin-right:1px;}
+.mantenimiento:hover {background:url(/emarcosas/templates/img/botonmantenimiento-hover.png) no-repeat; width:134px; height:30px;}
+
+
+.contratos {background:url(/emarcosas/templates/img/botoncontratos.png) no-repeat; width:93px; height:30px; margin-right:1px;}
+.contratos:hover {background:url(/emarcosas/templates/img/botoncontratos-hover.png) no-repeat; width:93px; height:30px; }
+
+.operadores {background:url(/emarcosas/templates/img/botonoperadores-hover.png) no-repeat; width:113px; height:30px; margin-right:1px;}
+.operadores:hover {background:url(/emarcosas/templates/img/botonoperadores-hover.png) no-repeat; width:113px; height:30px; }
+
+.proveedores {background:url(/emarcosas/templates/img/botonproveedor.png) no-repeat; width:116px; height:30px; margin-right:1px;}
+.proveedores:hover {background:url(/emarcosas/templates/img/botonproveedor-hover.png) no-repeat; width:116px; height:30px;}
+
+
+.cuentas {background:url(/emarcosas/templates/img/botoncuentas.png) no-repeat; width:93px; height:30px; margin-right:1px;}
+.cuentas:hover {background:url(/emarcosas/templates/img/botoncuentas-hover.png) no-repeat; width:93px; height:30px;}
+
+.estadisticas {background:url(/emarcosas/templates/img/botonestadisticas.png) no-repeat; width:118px; height:30px; margin-right:1px;}
+.estadisticas:hover {background:url(/emarcosas/templates/img/botonestadisticas-hover.png) no-repeat; width:118px; height:30px; }
+
+
+
+
+.titulosoporte { position:relative; left:628px; top:5px;}
+.botonsoporte  { position:relative; left:540px; top:10px;}
+
+
+
+
+
+#separador {  background:url(/emarcosas/templates/img/separador.png) no-repeat; width:996px; height:50px;  position:relative; left:-18px; top:90px;  }
+#separador2 { background:url(/emarcosas/templates/img/separador.png) no-repeat; width:996px; height:50px;  position:relative; left:-18px; top:73px; padding-bottom:60px;  }
+
+
+p.titulocontrol { position:relative; left:200px; top:-50px; font-family:helvetica; font-size:35px; color:#999; opacity:.7 } 
+p.tituloactual { position:relative; left:-180px; top:28px; font-family:helvetica; font-size:28px; color:#999; opacity:.7 } 
+
+
+
+
+#login { clear:both; margin-top:60px; }
+		
+		
+		
+		
+		 
+
+#barra { background:url(/emarcosas/templates/img/barra%20copyright.png) no-repeat; width:938px; height:54px; float:left; position:relative; left:17px; top:14px;  }
+
+#barra p.legal { position:relative; left:360px; top: 20px; font-size:16px; font-family:sans-serif }
+
+#barra a.link { text-decoration:none; color:#06F;  }
+#barra a.link:hover { text-decoration:underline; color:#F00;  } 
+
+
+#pie {background:url(/emarcosas/templates/img/pie%202.png) no-repeat; float:left; width:1024px; height:80px; position:relative; left:-18px;  }
+
+
+
+
+
+
+
+#enlaces      {margin-left:40px;} 
+#enlaces div { position:relative; display:block; width:800px;  }
+#enlaces div a{ float:left; display:block; width:auto; margin: 0 2; }
+#enlaces div img { float:left; display:block; width:auto; }
+#enlaces div p { float:left; display:block; font-size:14px; margin-top:4px;}
+
+
+
+
+
+
+
+/* inicio tabla de formularios*/
+table.formularios { width:auto; font-size:14px; font-family:helvetica; color:#678197; border:none; margin-left:0px;; margin-top:-10px; margin-bottom:20px; }
+table.formularios td { width:auto; border:none;  }
+table.formularios tr { background:none; width:auto; }
+table.formularios p{ font-weight:900; margin-left:0px; margin-bottom:-5px !important;  color:#678197; text-align:left; }	
+table.formularios input { margin-top:0px; margin-bottom:-10px; margin-right:60px; }
+/* fin de tabla formularios*/

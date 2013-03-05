@@ -1,0 +1,339 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{background: transparent;border: 0;margin: 0;padding: 0;vertical-align: baseline}
+a{text-decoration:none}
+.oc{display:none}
+
+.derecha{float:right}
+.izquierda{float:left}
+
+
+body{margin:0 20px; padding:0;font-family:Helvetica;font-size:12px;background:url(../img/Fondo.jpg)}
+
+#total{width:962px;padding:0;margin:auto}
+#espacio { background:   no-repeat; width:962px; padding-bottom:0px } 
+
+#cuerpo{background:url(../img/cabecera-sombra.png) no-repeat;float:left; width:1024px;  } 
+#contenido{background:url(../img/cuerpo%202.png) repeat-y ;position:relative;left:-11px;  padding:10px; margin-top:41px; width:962px; height:auto; float:left;}
+
+#prueba{ height:500px; padding-left:50px;}
+
+#logo {position:relative; left:40px; top:-10px; }
+
+
+
+#enlacesoporte  { text-decoration:none; color:#06F;            font-family:helvetica; font-size:14px; }
+#enlacesoporte:hover  { text-decoration:underline; color:#F00; font-family:helvetica; font-size:14px; }
+#titulosoporte { position:relative; left:-20px; top: 45px;  }
+#botonsoporte  { position:relative; left:-35px; top:-25px;  }
+
+
+
+
+#separador {  background:url(../img/separador.pnsg) no-repeat; width:996px; height:50px;  position:relative; left:-18px; top:90px;  }
+#separador2 { background:url(../img/separador.png) no-repeat; width:996px; height:50px;  position:relative; left:-18px; top:73px; padding-bottom:0px;  }
+
+
+p.titulocontrol { position:relative; left:90px; top:45px; font-family:helvetica; font-size:35px; color:#999; opacity:.7 } 
+p.tituloactual { position:relative; left:-180px; top:170px; font-family:helvetica; font-size:28px; color:#999; opacity:.7 } 
+
+
+#botonagregar { position:relative; left:50px; top: -00px;}
+#agregarm { background:url(../img/agregar-maquinaria.psng) no-repeat; float:left; width:115px; height:27px;}
+#agregarm:hover { background:url(../img/agregar-maquinaria-rollover.psng) no-repeat; float:left; width:115px; height:27px;}
+
+#login { float:left; margin-top:50px;}
+		
+		
+		
+		
+		 
+
+#barra { background:url(../img/barra%20copyright.png) no-repeat; width:938px; height:54px; float:left; position:relative; left:17px; top:14px;  }
+
+#barra p.legal { position:relative; left:360px; top: 20px; font-size:16px; font-family:sans-serif }
+
+#barra a.link { text-decoration:none; color:#06F;  }
+#barra a.link:hover { text-decoration:underline; color:#F00;  } 
+
+
+#pie {background:url(../img/pie%202.png) no-repeat; float:left; width:1024px; height:80px; position:relative; left:-18px;  }
+
+
+
+
+
+
+
+
+.normal
+    {
+     font-size: 12px;
+     color:#00BF55; 
+     background-color:#FFF;
+    }
+    .error
+    {
+     font-size: 12px;
+     color:#808080; 
+     background-color: #FFC6AA;
+    }
+	.rojo
+    {
+     font-size: 12px;
+     color:#F00; 
+	 
+ 
+    }
+	.correcto
+    {
+	 
+     font-size: 12px;
+     color:#000; 
+	 font-weight:bold;
+	 text-transform:capitalize;
+ 
+    }
+	
+
+
+
+
+
+
+
+
+
+
+
+.agregar {
+	width:auto;
+	border:1px solid #e5eff8;
+	font-size:14px;
+	margin-left:45px;
+		border-collapse:collapse;
+		font-family:helvetica;
+		font-weight:normal;
+	}
+
+.fondocabeza {  background:#f7fbff;}
+.letrachica { font-size:12px;}
+		
+.tipomaquina { 
+
+
+    width:120px;
+	
+	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #e5eff8;
+	border-left:1px solid #e5eff8;
+	padding-right:2px;
+	padding-left:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+		
+	
+	}							
+.idmaquina { width:55px;
+	padding-right:2px;
+	padding-left:2px;
+	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #e5eff8;
+	border-left:1px solid #e5eff8;
+		
+	
+	}					
+			
+.trabajomaquina { width:100px;
+	padding-right:2px;
+	padding-left:2px;
+	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #e5eff8;
+	border-left:1px solid #e5eff8;
+		
+	
+	}	
+	.registromaquina { width:125px;
+	padding-right:2px;
+	padding-left:2px;
+	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #e5eff8;
+	border-left:1px solid #e5eff8;
+		
+	
+	}		
+	.notificacion { width:240px;
+	padding-right:2px;
+	padding-left:2px;
+	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #e5eff8;
+	border-left:1px solid #e5eff8;
+	
+	
+		
+	
+	}
+	
+	
+										
+.ultimotrabajo { width:205px;
+	padding-right:2px;
+	padding-left:2px;
+	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #e5eff8;
+	border-left:1px solid #e5eff8;
+		
+	
+	}									
+
+
+
+
+	
+	
+	
+a.tabla       { text-decoration:none; color:#06F;}
+a.tabla:hover { text-decoration:underline; color:#F00;}
+
+
+
+
+
+
+
+
+p.idmaquinanueva { position:relative; top:0px; left:-20px;font-family:helvetica; font-size:28px; color:#999; opacity:.7 }
+p.idmaquinanueva2 { position:relative; top:0px; left:-40px;font-family:helvetica; font-size:14px; color:#999; opacity:.7 }
+p.idmaquinanueva4 { position:relative; top:-50px; left:240px;font-family:helvetica; width:500px; font-size:28px; color:#999; opacity:.7 }
+p.idmaquinanueva3 { position:relative; top:-50px; left:410px;font-family:helvetica; font-size:14px; color:#999; opacity:.7 }
+
+
+
+p.aceite { position:relative; top:0px; left:-195px;font-family:helvetica; font-size:20px; width:700px; color:#999; opacity:.7 }
+p.aceitevolco { position:relative; top:0px; left:-190px;font-family:helvetica; font-size:20px; width:700px; color:#999; opacity:.7 }
+
+
+#usuario { float:left; width:150px; height:18px; position:relative; left:210px; top:-40px; font-family:helvetica; font-size:14px; }
+#lista   { float:left; position:relative; left:660px; top:-92px;  font-size:14px; } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.tipodemaquina { position:relative; top:0px; left:40px;font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+#tipodemaquina { float:left; width:150px; height:18px; position:relative; left:210px; top:-22px; font-family:helvetica; font-size:14px; }
+
+
+p.codigodemaquina { position:relative; top:-20px; left:220px;font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+#codigodemaquina { float:left; width:150px; height:18px; position:relative; left:420px; top:-45px; font-family:helvetica; font-size:14px; }
+
+
+
+
+
+
+
+p.lugardetrabajo { position:relative; top:0px; left:-270px;font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+#lugardetrabajo { float:left; width:150px; height:18px; position:relative; left:-80px; top:-25px; font-family:helvetica; font-size:14px; }
+
+
+
+
+p.fechadetrabajo { position:relative; top:-25px; left:-270px;font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+
+#fechadetrabajo { float:left; position:relative; left:-10px; top:-20px; font-family:helvetica; font-size:14px; }
+
+.fechadetrabajo2 { position:relative; top:-44px; left:119px; } 
+
+.calendario { float:left; position:relative; left:120px; top:-20px;}
+
+
+
+.horasdeuso { position:relative; top:-30px; left:40px; font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+
+#horasdeuso {  width:150px; height:18px; position:relative; left:180px; top:-55px; font-family:helvetica; font-size:14px; }
+
+
+
+
+.valordelahora { position:relative; top:-75px; left:350px; font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+
+#valordelahora {  width:150px; height:18px; position:relative; left:540px; top:-100px; font-family:helvetica; font-size:14px; }
+
+
+
+
+.gastos { position:relative; top:-50px; left:60px; font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+
+
+.combustible { position:relative; top:-50px; left:50px; font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+
+
+#combustible { position:relative; top:-80px; left:200px; font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+
+
+
+.proveedores { position:relative; top:-105px; left:430px; font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+
+
+
+.proveedores2 { position:relative; top:-155px; left:580px; font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+
+
+
+.lubri { position:relative; top:-30px; left:50px; font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+
+
+
+
+#lubri { position:relative; top:-55px; left:-50px; font-family:helvetica; font-size:14px; color:#999; opacity:.7 }
+
+
+
+
+.proveedores3 { position:relative; top:-80px; left:390px; font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+
+
+
+.proveedores4 { position:relative; top:-110px; left:550px; font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+
+
+
+ .operador { position:relative; top:-10px; left:60px; font-family:helvetica; font-size:18px; color:#999; opacity:.7 }
+ 
+
+
+
+
+
+
+
+

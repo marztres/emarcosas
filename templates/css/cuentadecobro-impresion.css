@@ -1,0 +1,547 @@
+/* reseteo de estilos css*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{background: transparent;border: 0;margin: 0;padding: 0;vertical-align: baseline}
+a{text-decoration:none}
+
+/* reseteo de estilos css*/
+
+/* estilo links*/
+a.enlaces       { text-decoration:none; color:#06F; }
+a.enlaces:hover { text-decoration:underline; color:#F00; }
+
+/* clases flotantes*/
+.derecha{float:right}
+.izquierda{float:left}
+.noizquierda { clear:left;}
+.noderecha { clear:right;}
+.noflotante { clear:both;}
+.enlinea { display:inline;}
+
+
+/* body */
+body{ font-family:Helvetica; font-size:12px; background:url(../img/Fondo.jpg)}
+
+/* contenedor total cuerpo */
+#total{ width:962px;margin:auto}
+
+/* cuerpo y fondo cabecera */
+#cuerpo{background:url(/emarcosas/templates/img/cabecera-sombra.png) no-repeat; float:left; width:1024px;  } 
+
+/* cuerpo y fondo cabecera*/
+#contenido{ background:url(/emarcosas/templates/img/cuerpo%202.png) repeat-y; position:relative;left:-11px;  padding:10px; margin-top:41px; width:962px; height:auto; float:left;}
+
+/* cabecera */
+#cabecera { height:auto; width:auto; display:none; width:auto;    }
+
+/* encabezado= logo + titulo modulo + div-soporte-usuarios + titulo seccion*/
+#head { display:block; margin-left:40px; width:1024px;}
+
+/* logo */
+.head-logoiz { display:block; background:url(/emarcosas/templates/img/logoemarco2.png) no-repeat; width:221px; height:118px; }
+
+/* titulo del modulo*/
+h1.head-h1cen { display:block; font-family:helvetica; font-size:40px; color:#999; opacity:.7; margin-left:150px; margin-top:80px; width:200px;  } 
+
+/* div usuarios + soporte*/
+#head-divder          { display:block; width:300px; margin-left:95px;  }
+
+/* div usuarios + cerrar sesion*/
+#head-divder-usuarios { display: inline; margin-left:50px; margin-bottom:0px; }
+span.estiloinline {  font-family:helvetica; font-size:15px; color:#999; opacity:.7; }
+
+/* div icono soporte + link soporte*/
+#head-divder-soporte  { display:block; width:100px; margin-left:130px; margin-top:28px; }
+.iconosoporte { background:url(/emarcosas/templates/img/soporte.png) no-repeat; width:80px; height:50px; display:block;}
+.linksoporte  { margin-left:23px; font-size:16px;}
+
+/* h1 titulo de seccion*/
+h2.head-h2down { display:block; font-family:helvetica; font-size:35px; color:#999; font-weight:600; opacity:.6; margin-top:40px; margin-left:17px; margin-bottom:3px;   } 
+/* h1 titulo de seccion*/
+
+/*div enlaces a otras secciones*/
+#divenlaces { display:block; width:900px; float:left; margin-left:96px;}
+
+/* enlaces a otras secciones + hover*/ 
+.inicio {background:url(/emarcosas/templates/img/botoninicio.png) no-repeat; width:67px; }
+.inicio:hover {background:url(/emarcosas/templates/img/botoninicio-hover.png) no-repeat;  }
+
+.maquinas {background:url(/emarcosas/templates/img/botonmaquinas.png) no-repeat; width:94px; }
+.maquinas:hover {background:url(/emarcosas/templates/img/botonmaquinas-hover.png) no-repeat; }
+
+.mantenimiento {background:url(/emarcosas/templates/img/botonmantenimiento.png) no-repeat; width:134px; }
+.mantenimiento:hover {background:url(/emarcosas/templates/img/botonmantenimiento-hover.png) no-repeat;}
+
+.contratos {background:url(/emarcosas/templates/img/botoncontratos.png) no-repeat; width:93px; }
+.contratos:hover {background:url(/emarcosas/templates/img/botoncontratos-hover.png) no-repeat; }
+
+.operadores {background:url(/emarcosas/templates/img/botonoperadores.png) no-repeat; width:113px; }
+.operadores:hover {background:url(/emarcosas/templates/img/botonoperadores-hover.png) no-repeat;  }
+
+.proveedores {background:url(/emarcosas/templates/img/botonproveedor.png) no-repeat; width:116px; }
+.proveedores:hover {background:url(/emarcosas/templates/img/botonproveedor-hover.png) no-repeat;}
+
+
+.cuentas {background:url(/emarcosas/templates/img/botoncuentas-hover.png) no-repeat; width:93px;}
+.cuentas:hover {background:url(/emarcosas/templates/img/botoncuentas-hover.png) no-repeat; }
+
+.estadisticas {background:url(/emarcosas/templates/img/botonestadisticas.png) no-repeat; width:118px; }
+.estadisticas:hover {background:url(/emarcosas/templates/img/botonestadisticas-hover.png) no-repeat; }
+
+.boton-espacio-alto { height:30px; margin-right:1px; float:left}
+			
+/*div botones */
+#divbotones { background:#f0f0f0 repeat; display:block; float:left;  width:880px; height:30px; border:1px solid #999; margin-left:39px; padding-left:10px;}
+#divbotones a { text-decoration:none; color:#06F; font-size:15px; margin-top:6px;}
+#divbotones a:hover { text-decoration:underline; color:#F00;}
+#divbotones span { color:#CCC; margin:7 7 0; }
+#divbotones img { margin:3 5 0;}
+
+/* migas de pan*/
+.breadCrumb{ margin: 0;	padding: 0;	float: left;display: block;	height: 21px;overflow: hidden;width: 800px;padding:5px;background:#fff; margin-left:40px;
+margin-bottom:10px;}
+.breadCrumb ul{ margin: 0; padding: 0; height: 21px; display: block; }
+.breadCrumb ul li{ display: block;float: left;position: relative;height: 21px;overflow: hidden;line-height: 21px;margin: 0px 6px 0px 0;padding: 0px 10px 0px 0;
+font-size: .9167em; background: url(/emarcosas/templates/img/Chevron.gif) no-repeat 100% 0; }
+.breadCrumb ul li span{ display: block; overflow: hidden; }
+.breadCrumb ul li a{ display: block; position: relative; height: 21px; line-height: 21px;overflow: hidden;float:left; }
+
+
+
+
+#login { float:left; }
+		
+		
+		
+		
+		 
+
+#barra { display:none; background:url(/emarcosas/templates/img/barra%20copyright.png) no-repeat; width:938px; height:54px; float:left; position:relative; left:17px; top:14px;  }
+
+#barra p.legal { position:relative; left:360px; top: 20px; font-size:16px; font-family:sans-serif }
+
+#barra a.link { text-decoration:none; color:#06F;  }
+#barra a.link:hover { text-decoration:underline; color:#F00;  } 
+
+
+#pie {background:url(/emarcosas/templates/img/pie%202.png) no-repeat; float:left; width:1024px; height:80px; position:relative; left:-18px;   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.controldemaquinas {
+	width:auto;
+	border:2px solid #000;
+	font-size:14px;
+		margin-left:-10px;
+		margin-top:10px;
+		margin-bottom:10px;
+		float:left;
+		clear:both;
+		
+		border-collapse:collapse;
+		font-family:helvetica;
+		font-weight:normal;
+	
+	}
+table.controldemaquinas {font-family:arial; font-size:20px; }
+
+.fondocabeza {  background:#f7fbff;}
+.letrachica { font-size:12px;}
+		
+
+
+
+.seleccionar { 
+
+
+    width:20px;
+	
+	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #000;
+	border-left:1px solid #000;
+	padding-right:2px;
+	padding-left:12px;
+	padding-top:5px;
+	padding-bottom:3px;
+		
+	
+	}
+.tipomaquina { 
+
+
+    width:110px;
+	
+	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #000;
+	border-left:1px solid #000;
+	padding-right:2px;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:3px;
+		
+	
+	}							
+.idmaquina { width:65px;
+	padding-right:2px;
+	padding-left:2px;
+	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #000;
+	border-left:1px solid #000;
+		
+	
+	}					
+			
+.trabajomaquina { 
+	width:85px;
+	padding-right:2px;
+	padding-left:2px;
+	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #000;
+	border-left:1px solid #000;
+		
+	
+	}	
+	.registromaquina {
+	width:205px;
+	padding-right:2px;
+	padding-left:2px;
+	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #000;
+	border-left:1px solid #000;
+		
+	
+	}		
+	.notificacion { 
+	width:80px;
+	padding-right:2px;
+	padding-left:2px;
+	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #000;
+	border-left:1px solid #000;
+	
+	
+		
+	
+	}
+	
+	
+										
+.ultimotrabajo { 
+	width:170px;
+	padding-right:2px;
+	padding-left:2px;
+	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #000;
+	border-left:1px solid #000;
+		
+	
+	}									
+
+table.controldemaquinas td { 
+
+
+   	font-weight:normal;
+	color:#678197;
+	text-align:left;
+	border-bottom: 1px solid #000;
+	border-left:1px solid #000;
+	padding-right:2px;
+	padding-left:5px;
+	padding-top:5px;
+	padding-bottom:3px;
+}
+td img{ 
+		padding-left:15px;
+		}
+td a.modificar{ 
+		padding-left:25px;
+		}
+		
+tr:hover {
+		background:#f7fbff;
+	
+		 }		
+	
+	
+a.tabla       { text-decoration:none; color:#06F;}
+a.tabla:hover { text-decoration:underline; color:#F00;}
+
+
+table.informacion {
+					width:909px;;
+					border:none;
+					font-size:14px;
+					margin-left:29px;
+					border-collapse:collapse;
+					font-family:helvetica;
+					font-weight:normal;
+					margin-bottom:10px;
+					}
+td.Informacionbotones 	{
+				padding-left:40px;
+				
+				}
+
+.tituloinfosup { display:none;
+				font-size:20px;
+				padding-left:10px;
+				}
+
+
+
+
+
+			
+			
+
+
+
+	
+	
+.tituloinfoid {
+	 padding-top:10px;
+	 margin-left:5px;		
+	 font-size:15px;
+	 padding-right:5px;
+     }				
+.titulonombre {
+     	 
+	 padding-top:10px;
+	 margin-left:80px;		
+	 font-size:15px;
+	 padding-right:5px;
+	 
+     }	
+.titulodireccion {
+     
+	 margin-left:200px;	 
+	 padding-top:10px;
+	 font-size:15px;
+	 padding-right:50px;
+	 
+     }	
+	 
+	 
+.cajainfoid {
+				
+	
+	 margin-left:6px;		
+	 padding-right:5px;
+			  }
+
+.cajanombre {
+				
+	
+	 margin-left:169px;		
+	 padding-right:5px;
+			  }
+.cajadireccion {
+				
+	
+	 margin-left:103px;		
+	 padding-right:5px;
+	 margin-right:70px;
+			  }	
+	
+.titulotelefono {
+     
+	 margin-left:4px;	 
+	 padding-top:10px;
+	 font-size:15px;
+	 padding-right:5px;
+	 
+     }	
+.titulociudad {
+     
+	 margin-left:259px;	 
+	 padding-top:10px;
+	 font-size:15px;
+	 padding-right:400px;
+	 
+     }	
+.cajatelefono {
+				
+	
+	 margin-left:6px;		
+	 padding-right:5px;
+	 margin-right:40px;
+			  }	
+
+.cajaciudad {
+				
+	
+	 margin-left:131px;		
+	 padding-right:5px;
+	 margin-right:40px;
+			  }	
+
+
+.titulodistri {
+     
+	 margin-left:5px;	 
+	 padding-top:10px;
+	 font-size:15px;
+	 padding-right:550px;
+	 width:300px;
+	 padding-bottom:10px;
+	 
+	 
+     }	
+.cajacombustible {
+				 	
+	 margin-left:7px;		
+	 padding-right:5px;
+	 margin-right:10px;
+	
+				 }
+.titulocombustible
+				{
+				 margin-top:-8px;
+				 margin-left:2px;	 
+	 			 padding-top:10px;
+	 			 font-size:15px;
+				 padding-right:720px;
+				 
+	 			 
+	 
+					
+				}
+.cajalubricante {
+				 margin-top:5px;
+				 margin-left:7px;		
+				 padding-right:5px;
+				 margin-right:10px;
+					
+				}
+.titulolubricante
+				{
+			     margin-top:2px;
+				 margin-left:2px;	 
+	 			 padding-top:1px;
+	 			 font-size:15px;
+				}
+
+
+.botonregistrar
+				{
+				margin-left:640px;
+				}
+
+.negrita {
+			font-weight:900;	
+		 }
+
+tr.sinfondo {
+		  background:none;
+		  
+		  } 
+
+.eliminarvarios {
+				margin-top:7px;
+				margin-left:43px;
+				
+				}
+
+
+
+
+
+
+/* inicio tabla de formularios*/
+table.formularios { width:auto; font-size:14px; font-family:helvetica; color:#678197; border:none; margin-left:0px;; margin-top:-10px; margin-bottom:20px; }
+table.formularios td { width:auto; border:none;  }
+table.formularios tr { background:none; width:auto; }
+table.formularios p{ font-weight:900; margin-left:0px; margin-bottom:-5px !important;  color:#678197; text-align:left; }	
+table.formularios input { margin-top:0px; margin-bottom:-10px; margin-right:60px; }
+/* fin de tabla formularios*/
+
+
+
+/* inicio tabla de formularios*/
+table.formularios1 { width:auto; font-size:14px; font-family:helvetica; color:#678197; border:none; margin-left:-20px;; margin-top:0px; margin-bottom:20px; }
+table.formularios1 td { width:auto; border:none;  }
+table.formularios1 tr { background:none; width:auto; }
+table.formularios1 p{ font-weight:900; font-family:arial; font-size:30px; margin-left:0px; margin-bottom:0px !important;  color:#678197; text-align:left; }	
+table.formularios1 input { margin-top:0px; margin-bottom:-10px; margin-right:5px; font-family:arial; font-size:28px; }
+/* fin de tabla formularios*/
+
+input.divorcio {margin-right:50px !important; }
+.estado { display:none;}
+
+
+
+
+#deudor          { display:block; width:500px; margin-left:230px; margin-top:60px; clear:right;  }
+.deudor-nombre { display:block; min-width:400px; max-width:500px; margin-bottom:5px; }
+.identificacion1 { display:inline; margin-right:4px; }
+#deudor input,select { font-family:arial; font-size:28px; }
+
+
+#cobrante          { display:block; width:500px; margin-left:230px;  clear:both; margin-top:30px; }
+.cobrante-titulo  { display:inline;  margin-bottom:40px; margin-left:175px; font-family:arial; font-size:30px; font-weight:900;}
+.cobrante-nombre { display:inline; min-width:400px; max-width:500px; margin-bottom:5px;}
+.identificacion2 { display:inline; margin-right:4px; }
+#cobrante input,select { font-family:arial; font-size:28px; }
+
+#dineroenletras         { display:block; width:1300; margin-left:-50px; clear:both; margin-top:30px;}
+.dineroenletras-titulo  { display:inline; margin-bottom:20px; margin-left:430px;   font-family:arial; font-size:30px; font-weight:900;}
+.dineroenletras-caja { display:inline; min-width:820px; max-width:900px; margin-right:3px;  }
+#dineroenletras input,select { font-family:arial; font-size:28px; }
+
+#listaeventos         { display:block; width:500px; clear:both; margin-top:30px; margin-left:-9px;   }
+.listadeeventos-titulo { display:inline; font-family:arial; font-size:30px; font-weight:900; }
+.listadeeventos-titulo-actividades { display:inline; margin-left:40px; margin-top:5px;font-family:arial; font-size:30px; }
+
+#formadepago         { display:block; width:800px; margin-left:-9px; margin-top:30px; clear:both;  }
+.formadepago-caja { display:inline; min-width:300px; max-width:900px;  font-family:arial; font-size:28px;}
+#formadepago     label { font-family:arial; font-size:28px; }
+
+#datosdecobro         { display:block; width:600px; margin-left:-9px; clear:both; margin-top:30px; }
+#datosdecobro input { display:inline; min-width:500px; max-width:500px; margin:0 0; font-family:arial; font-size:30px; }
+#datosdecobro  label{font-family:arial; font-size:30px; font-weight:900; }
+
+#infoadicional        { display:none; width:500px; margin-left:-9px; clear:both; margin-top:80px; }
+.infoadicional-valpendiente { display:inline; margin-left:0;}
+.infoadicional-valabono { display:block; margin-left:50px; }
+#infoadicional label{ margin-bottom:3px;}
+.infoadicional-cajapendiente { display:inline; width:110px;}
+.infoadicional-cajaabono { display:inline; margin-left:50px; width:110px; }
+.datosdecobro-firma   { display:block; }
+.datosdecobro-raya   { display:block; }
+ 
+#botonesfinales { display:none;  margin-top:40px; margin-bottom:10px; width:auto; margin-right:47px; }
+#botonesfinales input{ margin:0 3;}
+
+
+input,textarea,select{ border:0 !important;  -webkit-appearance:none; -moz-appearance:none; border-collapse:collapse; resize: none;}
+
+@page { margin:auto; padding:0 auto;}
+

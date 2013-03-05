@@ -1,0 +1,52 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{background: transparent;border: 0;margin: 0;padding: 0;vertical-align: baseline}
+a{text-decoration:none}
+.oc{display:none}
+
+.derecha{float:right}
+.izquierda{float:left}
+
+
+body{margin:0 20px; padding:0;font-family:Helvetica;font-size:12px;background:url(../img/Fondo.jpg)}
+
+#total{width:962px;padding:0;margin:auto}
+#espacio { background:   no-repeat; width:962px; padding-bottom:0px } 
+#cuerpo{background:url(../img/cabecera-sombra.png) no-repeat;float:left; width:1024px;  } 
+#contenido{background:url(../img/cuerpo%202.png) repeat-y ;position:relative;left:-11px;  padding:10px; margin-top:41px; width:962px; height:600px; float:left;}
+
+#prueba{ height:auto; padding-left:50px;}
+
+#logo {position:relative; left:40px; top:-10px; }
+
+#logo {position:relative; left:40px; top:-10px; }
+
+#enlacesoporte  { text-decoration:none; color:#06F;            font-family:helvetica; font-size:14px; }
+#enlacesoporte:hover  { text-decoration:underline; color:#F00; font-family:helvetica; font-size:14px; }
+#titulosoporte { position:relative; left:-20px; top: 45px;  }
+#botonsoporte  { position:relative; left:-35px; top:-25px;  }
+
+
+
+#separador {  position:relative; left:-25px; top:-30px; padding:25px  }
+
+#menu{float:left;width:900px;  position:relative;top: -65px; left:50px; padding-top:10px  }
+		#menu ul{list-style:none}
+		#menu li{padding-bottom:auto; padding-left:32px; margin-left:2px;}
+		#menu li.maquinaria { margin-left:0px;}
+		#menu li.contratos { margin-left:10px;}
+		#menu li.estadisticas { margin-left:10px;}
+		#menu li.notificaciones { margin-left:0px;}
+		#menu li.operadores { position:relative; left:-7px;}
+		#menu li.pagos { position:relative; left:-11px;}
+		
+		 
+		 
+
+#barra { background:url(../img/barra%20copyright.png) no-repeat; width:938px; height:54px; float:left; position:relative; left:17px; top:-94px;  }
+
+#barra p.legal { position:relative; left:360px; top: 20px; font-size:16px; font-family:sans-serif }
+
+#barra a.link { text-decoration:none; color:#06F;  }
+#barra a.link:hover { text-decoration:underline; color:#F00;  } 
+
+
+#pie {background:url(../img/pie%202.png) no-repeat; float:left; width:1024px; height:80px; position:relative; left:-18px;  }

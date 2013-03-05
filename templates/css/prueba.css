@@ -1,0 +1,27 @@
+ .normal
+    {
+     font-size: 10pt;
+     color:#00BF55; 
+     background-color:#FFF;
+    }
+    .error
+    {
+     font-size: 10pt;
+     color:#000000; 
+     background-color: #FFC6AA;
+    }
+	.rojo
+    {
+     font-size: 10pt;
+     color:#F00; 
+ 
+    }
+	.correcto
+    {
+	 
+     font-size: 10pt;
+     color:#000; 
+	 font-weight:bold;
+	 text-transform:capitalize;
+ 
+    }
